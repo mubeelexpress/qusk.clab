@@ -1,0 +1,1 @@
+console.log("yh i linked normalyvand im waiting for your comand");
