@@ -25,10 +25,88 @@
             </article>
         </section>
     </header>
-    <main class="container">
+      <main class="container">
+        <article class="row">
+            <div class="col-3"></div>
+            <!-- <img src="src/images/Z3JlVFplRT0.webp" alt=""> -->
+            <div class="col-6 ">
+                <form >
+                    <fieldset>
+                        <legend>Information</legend>
+                        <!-- name -->
+                        <label for="name" class="form-label ">Name</label>
+                        <input type="text" 
+                            id="name" 
+                            required 
+                            placeholder="Full Name"
+                            class="form-control"
+                            >
 
+                        <!-- Qu number -->
+                        <label for="qu-number" class="form-label">Qu-Number</label>
+                        <input type="number" 
+                            maxlength="10" 
+                            minlength="10" 
+                            required 
+                            placeholder="Qu Number"
+                            class="form-control"
+                            >
+                            
+                        <!-- phone number -->
+                         <label for="phone-number" class="form-label">Qu-Number</label>
+                        <input type="number" 
+                            maxlength="12" 
+                            minlength="12" 
+                            required 
+                            placeholder="Phone Number"
+                            class="form-control"
+                            >
+                        
+                        <!-- collage -->
+                         <label for="collage" class="form-label" >Collage</label>
+                         <select name="collage" 
+                            id="collage" 
+                            class="form-select" >
+                            <option value="compute">Computer</option>
+                            <option value="shari'a">Shari'a</option>
+                        </select>
+
+                        <!-- computer number -->
+                         <label for="computer-num" class="form-label" >Computer Number</label>
+                         <select name="computer-number" 
+                            id="computer-num"
+                            class="form-select" >
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+
+                        </select>
+
+                        <!-- submit button -->
+                         <button type="submit" class="form-control btn btn-primary mt-3">Submit</button>
+                            
+                    </fieldset>
+
+                </form>
+              
+            </div>
+
+            <div class="col-3"></div>
+
+        </article>
     </main>
-
 
 
     <script src="script/script.js"></script>
