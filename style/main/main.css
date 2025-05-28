@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 body {
-  background: #071952;
+  background: #088395;
+  background-font-family: "Roboto Mono", monospace;
 }
 body header section article div {
   background: #FFF6E9;
+}
+
+div.buttons-cont {
+  margin-top: 2rem;
+}
+div.buttons-cont a {
+  color: #FFF6E9;
+  background: #35A29F;
+  box-shadow: 0 0 10 #FFF6E9;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  background: #071952;
+}
+footer article p {
+  color: #FFF6E9;
 }/*# sourceMappingURL=main.css.map */

@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
+$roboto:"Roboto Mono", monospace
+    
 $light-color:#FFF6E9
-$dark-color:#071952
+$dark-color:#088395
+$dark-color-2:#35A29F
+$dark-color-3:#071952
     
 body
-   background: $dark-color
+    background: $dark-color
+    font-family: $roboto
+
    header
     section
         article
             div
                 background: $light-color
+                
+// index.htm;
+div.buttons-cont
+    margin-top: 2rem
+    a
+        color: $light-color
+        background: $dark-color-2
+        box-shadow: 0 0 10 $light-color
+        font-size: 2rem
+        font-weight: 700
+        padding: 1rem 2rem
+        margin: 1rem
+        font-family: $roboto
+        border-radius: 10px
 
-
+footer
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    height: 6rem
+    background: #071952
+    article
+        p
+            color: $light-color
+        
             
