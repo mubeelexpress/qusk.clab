@@ -1,1 +1,11 @@
-/*# sourceMappingURL=sighn.css.map */
+form {
+  border: 1px solid #121211;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+
+label {
+  font-weight: 600;
+}/*# sourceMappingURL=sighn.css.map */
